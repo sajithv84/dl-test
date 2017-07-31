@@ -17,6 +17,8 @@ object CsvReader {
     val df = sqlContext.read.format("com.databricks.spark.csv").option("header", "true").load(args(0))
     
     df.printSchema()
+    
+    // This is just a comment
 
   }
 }
