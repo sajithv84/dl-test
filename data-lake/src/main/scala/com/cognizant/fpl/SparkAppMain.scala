@@ -5,7 +5,7 @@ import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
 
 object SparkAppMain {
-  
+  //New comment added!!!!
   def main(args: Array[String]): Unit = {
         // create Spark context with Spark configuration
     val conf = new SparkConf().setAppName("Spark Count")
